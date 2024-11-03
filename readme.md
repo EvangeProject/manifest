@@ -1,6 +1,6 @@
 # **Evange Project**
 
-![Evangelion Asuka](banner/asuka.png)
+![Evangelion Asuka](images/asuka.png)
 
 
 **Evange Project is a custom ROM inspired by the world of Neon Genesis Evangelion. This project aims to bring a unique visual and thematic experience to users, blending mobile customization with the iconic aesthetic and deep symbolism of Evangelion.**
