@@ -20,3 +20,13 @@ Each build of Evange Project is dedicated to a specific character from the anime
 Contributions are welcome! If you're an Evangelion fan and want to help improve Evange Project, feel free to open issues, make pull requests, and suggest new ideas.💖
 
 [Pedropcrdp242](https://github.com/Pedropcrdp242)
+
+### Initialize local repository
+```
+repo init -u https://github.com/EvangeProject/manifest -b asuka-14 --git-lfs
+```
+### Sync up 
+```
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
