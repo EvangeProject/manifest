@@ -38,7 +38,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="evange" />
 
   <!-- Device -->
-  <project path="device/lineage/sepolicy" name="device_evange_sepolicy" remote="evange" />
+  <project path="device/evange/sepolicy" name="device_evange_sepolicy" remote="evange" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="evange" />
