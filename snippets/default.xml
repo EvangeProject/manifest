@@ -47,6 +47,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="evange" />
 
   <!-- Packages -->
+    <project path="packages/apps/BaseCamp" name="packages_apps_BaseCamp" remote="evange" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="evange" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="evange" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="evange" />
