@@ -18,3 +18,5 @@ Each build of Evange Project is dedicated to a specific character from the anime
 ### Contribution
 
 Contributions are welcome! If you're an Evangelion fan and want to help improve Evange Project, feel free to open issues, make pull requests, and suggest new ideas.💖
+
+[Pedropcrdp242](https://github.com/Pedropcrdp242)
