@@ -1,1 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+  <!-- GitHub (EvangeOS) -->
+  <remote  name="evange"
+           fetch="https://github.com/EvangeProject/"
+           revision="asuka-14" />
+
+  <!-- Gitlab (EvangeOS) -->
+  <remote  name="everest-gitlab"
+           fetch="https://gitlab.com/evanegeos/"
+           revision="asuka-14" />
+
+  
