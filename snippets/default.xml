@@ -46,10 +46,10 @@
   <project path="device/evange/sepolicy" name="device_evange_sepolicy" remote="evange" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="evange" />
+  #project path="frameworks/av" name="frameworks_av" groups="pdk" remote="evange" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evange2" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="evange2" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="evange" />
+  #project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="evange" />#
 
   <!-- Packages -->
     <project path="packages/apps/EvangeLab" name="packages_apps_EvangeLab" remote="evange2" />
