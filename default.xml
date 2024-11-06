@@ -1291,7 +1291,6 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <include name="snippets/default.xml" />
+  <include name="snippets/evangeos.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/pixel.xml" />
 </manifest>
