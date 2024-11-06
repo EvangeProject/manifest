@@ -47,15 +47,14 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="evange" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evange" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="evange" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evange2" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="evange2" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="evange" />
 
   <!-- Packages -->
-    <project path="packages/apps/BaseCamp" name="packages_apps_BaseCamp" remote="evange" />
+    <project path="packages/apps/EvangeLab" name="packages_apps_EvangeLab" remote="evange2" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="evange" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="evange" />
-  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="evange" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="evange2" />
 
   <!-- SDK -->
   <project path="lineage-sdk" name="lineage-sdk" remote="evange" />
@@ -65,7 +64,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="evange" />
 
   <!-- Vendor -->
-  <project path="vendor/lineage" name="vendor_evange" remote="evange" />
+  <project path="vendor/lineage" name="vendor_evange" remote="evange2" />
   <project path="vendor/gms" name="vendor_gms" remote="everest-gitea" clone-depth="1" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evange" />
   <project path="vendor/pixel-style" name="vendor_pixel-style" remote="evange" />
