@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- GitHub (EverestOS) -->
+  <!-- GitHub (EvangeOS) -->
   <remote  name="evange"
            fetch="https://github.com/EvangeProject/"
            revision="asuka-14" />
+
+    <!-- GitHub (EvangeOS) -->
+  <remote  name="evange"
+           fetch="https://github.com/EvangeProject/"
+           revision="14" />
 
   <!-- Gitlab (EverestOS) -->
   <remote  name="everest-gitlab"
