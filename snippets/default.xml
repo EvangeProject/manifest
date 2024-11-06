@@ -7,7 +7,7 @@
            revision="asuka-14" />
 
     <!-- GitHub (EvangeOS) -->
-  <remote  name="evange"
+  <remote  name="evange2"
            fetch="https://github.com/EvangeProject/"
            revision="14" />
 
