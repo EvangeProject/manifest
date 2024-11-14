@@ -9,7 +9,7 @@
     <!-- GitHub (EvangeOS) -->
   <remote  name="evange2"
            fetch="https://github.com/EvangeProject/"
-           revision="14" />
+           revision="14.0" />
 
   <!-- Gitlab (EverestOS) -->
   <remote  name="everest-gitlab"
@@ -52,7 +52,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="evange2" />
 
   <!-- Packages -->
-    <project path="packages/apps/EvangeLab" name="packages_apps_ELab" remote="evange2" />
+    <project path="packages/apps/EvangeSettings" name="packages_apps_EvangeSettings" remote="evange2" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="evange2" />
 
   <!-- SDK -->
@@ -63,8 +63,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="evange" />
 
   <!-- Vendor -->
-  <project path="vendor/lineage" name="vendor_evange" remote="evange" />
+  <project path="vendor/evange" name="vendor_evange" remote="evange" />
   <project path="vendor/gms" name="vendor_gms" remote="everest-gitea" clone-depth="1" />
-  project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evange" />
-  project path="vendor/pixel-style" name="vendor_pixel-style" remote="evange" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evange2" />
 </manifest>
