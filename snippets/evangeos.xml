@@ -9,7 +9,12 @@
     <!-- GitHub (EvangeOS) -->
   <remote  name="evange2"
            fetch="https://github.com/EvangeProject/"
-           revision="14.0" />
+           revision="udc" />
+
+   <!-- GitHub (EvangeOS) -->
+  <remote  name="evange3"
+           fetch="https://github.com/EvangeProject/"
+           revision="vic" />
 
   <!-- Gitlab (EverestOS) -->
   <remote  name="everest-gitlab"
@@ -47,12 +52,13 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="evange2" />
+   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="evange2" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evange2" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="evange2" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="evange3" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="evange2" />
 
   <!-- Packages -->
-    <project path="packages/apps/EvangeSettings" name="packages_apps_EvangeSettings" remote="evange2" />
+    <project path="packages/apps/asuka" name="packages_apps_asuka" remote="evange2" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="evange2" />
 
   <!-- SDK -->
