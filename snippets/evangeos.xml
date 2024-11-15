@@ -72,4 +72,5 @@
   <project path="vendor/evange" name="vendor_evange" remote="evange" />
   <project path="vendor/gms" name="vendor_gms" remote="everest-gitea" clone-depth="1" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evange2" />
+   <project path="vendor/pixel-style" name="vendor_pixel-style" remote="evange2" />
 </manifest>
