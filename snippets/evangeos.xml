@@ -61,5 +61,6 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="asuka-14f" />
 
   <!-- Vendor -->
+   <project path="vendor/lineage" name="vendor_evange" groups="pdk" remote="asuka-14" />
   <project path="vendor/gms" name="vendor_gms" remote="everest-gitea" clone-depth="1" />
 </manifest>
