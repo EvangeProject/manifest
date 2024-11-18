@@ -34,10 +34,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 ```
 WITH_GAPPS := true\false
 ```
-# Quick switch (add more than one Launcher in build)
+# To Build Asuka
 ```
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+brunch <name-of-device>
 ```
-### recommended "TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false" for improve bugs in evangeos rom
