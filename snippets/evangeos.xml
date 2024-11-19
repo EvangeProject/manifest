@@ -16,10 +16,12 @@
            fetch="https://gitlab.com/everestos/"
            revision="14" />
 
-   <!-- Gitea (fork-EverestOS) -->
-  <remote  name="everest-gitea"
-           fetch="https://gitea.com/ProjectEverest/"
-           revision="14" />
+   <!-- Gitea (fork-EvolutionX) -->
+ <remote  name="evo-bitbucket"
+           fetch="https://bitbucket.org/evo-x"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/udc" />
 
   <!-- Rootdir -->
   <project path="manifest" name="manifest" remote="asuka-14" />
@@ -62,5 +64,5 @@
 
   <!-- Vendor -->
    <project path="vendor/lineage" name="vendor_evange" groups="pdk" remote="asuka-14" />
-  <project path="vendor/gms" name="vendor_gms" remote="everest-gitea" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="evo-bitbucket" clone-depth="1" />
 </manifest>
