@@ -1292,6 +1292,5 @@
   </project>
 
   <include name="snippets/evangeos.xml" />
-  <include name="snippets/devices_evange.xml" />
   <include name="snippets/lineage.xml" />
 </manifest>
