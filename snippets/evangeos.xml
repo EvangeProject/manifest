@@ -2,14 +2,14 @@
 <manifest>
 
   <!-- GitHub (EvangeOS) -->
-  <remote  name="evange"
+  <remote  name="asuka-14"
            fetch="https://github.com/EvangeProject/"
            revision="asuka-14" />
 
    <!-- GitHub (fork-EvangeOS) -->
-  <remote  name="evange"
+  <remote  name="asuka-14f"
            fetch="https://github.com/LineageOS/"
-           revision="asuka-14f" />
+           revision="asuka-14" />
   
   <!-- Gitlab (fork-EverestOS) -->
   <remote  name="everest-gitlab"
