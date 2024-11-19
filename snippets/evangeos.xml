@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+   <!-- GitHub (EvangeOS) -->
+  <remote  name="gale"
+           fetch="https://github.com/mt6768byhelio/"
+           revision="asuka-14" />
+
+ <!-- GitHub (EvangeOS) -->
+  <remote  name="gale-issues"
+           fetch="https://github.com/mt6768byhelio/"
+           revision="lineage-21" />
+
   <!-- GitHub (EvangeOS) -->
   <remote  name="asuka-14"
            fetch="https://github.com/EvangeProject/"
@@ -65,4 +75,16 @@
   <!-- Vendor -->
    <project path="vendor/lineage" name="vendor_evange" groups="pdk" remote="asuka-14" />
   <project path="vendor/gms" name="vendor_gms" remote="evo-bitbucket" clone-depth="1" />
+
+<project path="device/xiaomi/gale" name="device_xiaomi_gale_evange" remote="asuka-14" />
+
+<project path="vendor/xiaomi/gale" name="vendor_xiaomi_gale" remote="lineage-21" />
+
+<project path="device/xiaomi/gale-kernel" name="device_xiaomi_gale-kernel" remote="lineage-21" />
+
+<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="lineage-21" />
+
+<project path="hardware/xiaomi" name="hardware_xiaomi" remote="lineage-21" />
+
+<project path="hardware/mediatek" name="hardware_mediatek" remote="lineage-21" />
 </manifest>
