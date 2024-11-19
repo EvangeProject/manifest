@@ -8,7 +8,7 @@
            fetch="https://github.com/mt6768byhelio/"
            revision="lineage-21" />
 
-
+<manifest>
 <project path="device/xiaomi/gale" name="device_xiaomi_gale_evange" remote="asuka-14" />
 
 <project path="vendor/xiaomi/gale" name="vendor_xiaomi_gale" remote="lineage-21" />
@@ -20,3 +20,4 @@
 <project path="hardware/xiaomi" name="hardware_xiaomi" remote="lineage-21" />
 
 <project path="hardware/mediatek" name="hardware_mediatek" remote="lineage-21" />
+</manifest>
