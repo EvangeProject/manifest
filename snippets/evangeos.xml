@@ -25,27 +25,15 @@
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="asuka-14" />
-
-  <!-- Frameworks -->
   
 
   <!-- Packages -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="asuka-14" />
-
-  <!-- SDK -->
-  <project path="lineage-sdk" name="lineage-sdk" remote="asuka-14" />
-
-  <!-- System -->
+  <project path="packages/apps/Settings" name="packages_apps_settings" groups="pdk-fs" remote="asuka-14" />
 
   <!-- Vendor -->
-   <project path="vendor/lineage" name="vendor_evange" groups="pdk" remote="asuka-14" />
+   <project path="vendor/evange" name="vendor_evange" groups="pdk" remote="asuka-14" />
   <project path="vendor/gms" name="vendor_gms" remote="evo-bitbucket" clone-depth="1" />
 <!-- Devices -->
-  <project path="device/xiaomi/gale" name="device_xiaomi_gale_evange" remote="asuka-14" />
-  <project path="device/xiaomi/gale-kernel" name="device_xiaomi_gale-kernel_evange" remote="asuka-14" />
-  <project path="vendor/xiaomi/gale" name="vendor_xiaomi_gale_evange" remote="asuka-14" />
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr_evange" remote="asuka-14" />
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="asuka-14" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="asuka-14" />
+  <project path="oficialdevices" name="official_devices" remote="asuka-14" />
   
 </manifest>
