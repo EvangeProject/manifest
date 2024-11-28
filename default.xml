@@ -4,10 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-
-  <remote name="asuka-14" fetch="https://github.com/EvangeProject" />
-
-  
   <default revision="refs/tags/android-14.0.0_r73"
            remote="aosp"
            sync-j="4" />
