@@ -1,39 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- GitHub (EvangeOS) -->
-  <remote  name="asuka-14"
-           fetch="https://github.com/EvangeProject/"
-           revision="asuka-14" />
-  
-  <!-- Gitlab (fork-EverestOS) -->
-  <remote  name="everest-gitlab"
-           fetch="https://gitlab.com/everestos/"
-           revision="14" />
+  <remote  name="PixelOS"
+           fetch="https://github.com/EvangeProject"
+           revision="refs/heads/asuka-14" />
 
-   <!-- Gitea (fork-EvolutionX) -->
- <remote  name="evo-bitbucket"
-           fetch="https://bitbucket.org/evo-x"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/udc" />
+  <remote  name="PixelOS-Gitlab"
+           fetch="https://gitlab.com/PixelOS-AOSP"
+           revision="refs/heads/fourteen" />
 
   <!-- Rootdir -->
-  <project path="manifest" name="manifest" remote="asuka-14" />
-
-  <!-- Build -->
+  <project path="bionic" name="bionic" groups="pdk" remote="asuka-14" />
+  <project path="art" name="art" groups="pdk" remote="asuka-14" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="asuka-14" />
-  
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk" remote="asuka">
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+    <linkfile dest="build/core" src="core" />
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+    <linkfile dest="build/target" src="target" />
+    <linkfile dest="build/tools" src="tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="asuka-14">
+    <linkfile dest="Android.bp" src="root.bp" />
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="asuka-14" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="asuka-14" />
+  <project path="external/skia" name="external_skia" groups="pdk" remote="asuka-14" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="asuka-14" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="asuka-14" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="asuka-14" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="asuka-14" />
+
+  <!-- Hardware -->
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="asuka-14" />
 
   <!-- Packages -->
-  <project path="packages/apps/Settings" name="packages_apps_settings" groups="pdk-fs" remote="asuka-14" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="asuka-14" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="asuka-14" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="asuka-14" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" groups="pdk" remote="asuka-14" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="asuka-14" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="asuka-14" />
+
+  <!-- Begin Extras -->
+
+  <!-- Device -->
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="asuka-14" />
+
+  <!-- Packages -->
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="asuka-14" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="asuka-14" />
+  <project path="package/apps/Updates" name="packages_apps_Updates" remote="asuka-14" />
+  <project path="packages/apps/NTApps" name="packages_apps_NTApps" remote="asuka-14" />
 
   <!-- Vendor -->
-   <project path="vendor/evange" name="vendor_evange" groups="pdk" remote="asuka-14" />
-  <project path="vendor/gms" name="vendor_gms" remote="evo-bitbucket" clone-depth="1" />
-<!-- Devices -->
-  <project path="oficialdevices" name="official_devices" remote="asuka-14" />
-  
+  <project path="vendor/aosp" name="vendor_aosp" remote="asuka-14" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="asuka-14" />
+  <project path="vendor/gms" name="vendor_gms-14" clone-depth="1" remote="PixelOS-Gitlab" />
+
 </manifest>
