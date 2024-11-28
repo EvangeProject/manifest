@@ -62,7 +62,6 @@
   <!-- Packages -->
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="asuka-14" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="asuka-14" />
-  <project path="packages/apps/Updates" name="package_apps_Updates" remote="asuka-14" />
   <project path="packages/apps/NTApps" name="packages_apps_NTApps" remote="asuka-14" />
 
   <!-- Vendor -->
