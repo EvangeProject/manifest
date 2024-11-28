@@ -17,7 +17,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="asuka-14" />
 
   <!-- Build -->
-  <project path="build/make" name="build" groups="pdk" remote="asuka">
+  <project path="build/make" name="build" groups="pdk" remote="asuka-14">
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
     <linkfile dest="build/core" src="core" />
