@@ -21,6 +21,13 @@ Contributions are welcome! If you're an Evangelion fan and want to help improve 
 
 [Pedropcrdp242](https://github.com/Pedropcrdp242)
 
+## Credits
+- [PixelOS](https://github.com/PixelOS-AOSP).
+- [LineageOS](https://github.com/LineageOS).
+- [Aosp](https://source.android.com/).
+- launcher made by
+- [AyraHikari](https://github.com/AyraHikari).
+
 ### Initialize local repository
 ```
 repo init -u https://github.com/EvangeProject/manifest -b asuka-14 --git-lfs
@@ -29,12 +36,7 @@ repo init -u https://github.com/EvangeProject/manifest -b asuka-14 --git-lfs
 ```
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
-
-# Build GAPPS\Vanilla
-```
-WITH_GAPPS := true\false
-```
 # To Build Asuka
 ```
-brunch <name-of-device>
+m <name-of-device>
 ```
