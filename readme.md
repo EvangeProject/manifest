@@ -38,5 +38,5 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 ```
 # To Build Asuka
 ```
-m <name-of-device>
+mka bacon
 ```
